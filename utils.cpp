@@ -1,4 +1,5 @@
 #include <string>
+#include <string.h>
 
 /**
  * Replace all occurrences of string orgSubstr in string target with the new

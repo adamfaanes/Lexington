@@ -154,6 +154,7 @@ int Parseable::handleCharacter( int i )
       if( isLexicalStat( c ) )
         return PARSE_TRYAGAIN;
       m_token << c;
+      return PARSE_NORMAL;
       break;
 
     default:
