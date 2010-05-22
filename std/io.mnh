@@ -1,0 +1,1 @@
+cdecl void print( str text ) as printf from stdio.h;
